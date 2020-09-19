@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.invisible {
+  color: transparent !important;
+}
+body {
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.753), 
+    rgba(0, 0, 0, 0.692)
+    ), 
+    url('./unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: #e2e2e2;
+  transition: .5s color ease;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.container {
+  display: flex;
+}
+
+.container .counter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem 1.5rem;
+}
+
+.counter .big-text {
+  font-size: 7rem;
+  font-weight: bold;
+}
+.counter .big-text + span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
